@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+.post{
+    background-color: antiquewhite;
+    border: 1px solid black;
+    width: 50vw;
+    text-align: center;
+    min-height: 8vh;
+    border-radius: 10px;
+    margin: 10px 0px 10px 0px;
+    margin-left: 1vw;
+}
+.post-link{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    transition: all 200ms ease-in-out;
+}
+.post-link:hover{
+    word-spacing: 2px;
+}
+.searchField {
+    width: 40%;
+    margin-left: 1vw;
+    margin-top: 5vh;
+    outline: 0;
+    font-size: 1.2rem;
+    padding: 5px;
+    background-color: rgb(251, 250, 245) ;
+    color: black;
+}
+.btn-search{
+    min-width: 5vw;
+    font-size: 1.2rem;
+    margin-left: 15px;
+}
